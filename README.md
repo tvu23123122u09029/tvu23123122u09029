@@ -1,10 +1,8 @@
-- 👋 Hi, I’m @tvu23123122u09029
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
 
-<!---
-tvu23123122u09029/tvu23123122u09029 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#1.1 implement a recursion function to calculate the factorial of a given number
+def factorial(n):
+  if n==0:
+      return 1
+  return n* factorial(n-1)
+num = 5
+print("Factorial of",num,"is",factorial(num))
